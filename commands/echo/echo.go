@@ -15,8 +15,6 @@ func (c EchoCommand) Execute() {
 }
 
 func init() {
-    fmt.Println("echo 运行过了")
-
     base.RegisterCommand(EchoCommand{
         base.BaseCommand{
             Name: "echo",
